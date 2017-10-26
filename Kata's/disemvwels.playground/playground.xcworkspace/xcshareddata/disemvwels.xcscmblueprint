@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7C2AA8236D8647028ECC716B6F8EA7155FAC5438",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F3D44B2E0A174995B0681E912F10265E75ED8B1A" : 9223372036854775807,
+    "7C2AA8236D8647028ECC716B6F8EA7155FAC5438" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B12DA638-D43B-4A8B-B159-DD2281583E9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F3D44B2E0A174995B0681E912F10265E75ED8B1A" : "",
+    "7C2AA8236D8647028ECC716B6F8EA7155FAC5438" : "AppAccademyBootcamp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "disemvwels",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kata's\/disemvwels.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/AppAccademyBootcamp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C2AA8236D8647028ECC716B6F8EA7155FAC5438"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3D44B2E0A174995B0681E912F10265E75ED8B1A"
+    }
+  ]
+}

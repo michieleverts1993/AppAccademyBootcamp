@@ -1,0 +1,27 @@
+{
+    "ShoppingItems": {
+        item1: {
+                "fullName": "Coffee",
+                "price": 3.50,
+                "details": "Morning stuff"
+                "photo" : 
+                },
+        item2: {
+                "fullName": "burger",
+                "price": 2.50,
+                "details": "Morning stuff"
+                "photo" : 
+                },
+        item3: {
+                "fullName": "water",
+                "price": 0.50,
+                "details": "Morning stuff"
+                "photo" : 
+                },
+        item4: {
+                "fullName": "chicken",
+                "price": 4.50,
+                "details": "Morning stuff"
+                "photo" : 
+                },
+}

@@ -1,0 +1,72 @@
+PODS:
+  - Database (0.1.8):
+    - RealmSwift (~> 2)
+    - SwiftyJSON (~> 3)
+    - SwiftyJSONRealmObject (~> 1)
+  - Firebase (4.4.0):
+    - Firebase/Core (= 4.4.0)
+  - Firebase/Core (4.4.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.9)
+  - Firebase/Database (4.4.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.1)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.9):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.1.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.5)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - Kingfisher (4.1.1)
+  - leveldb-library (1.18.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - SwiftyJSON (3.1.4)
+  - SwiftyJSONRealmObject (1.0.0):
+    - RealmSwift
+    - SwiftyJSON
+
+DEPENDENCIES:
+  - Database
+  - Firebase
+  - Firebase/Core
+  - Firebase/Database
+  - Kingfisher
+
+SPEC CHECKSUMS:
+  Database: eef88beb81a6da34375044c1683de898f3ebb753
+  Firebase: 3e92884a63e8f76d107c43a67d2ab9071e1eda10
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseCore: ebe73f64302705e693b1de9919a76edbdd17a19d
+  FirebaseDatabase: 2e6e8e110b93b9a6e7aac71774c769a363035cb1
+  FirebaseInstanceID: f2b688c66b972f30d7fa9f5f9f91455454a03b47
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  Kingfisher: 6793a473357b5dbee42b0068ef203fe8325f259e
+  leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyJSONRealmObject: ab791e57876b1e0041463291b97a378e90a3fa9f
+
+PODFILE CHECKSUM: 67cc093046252b781d10bfeb7f08f5c721733574
+
+COCOAPODS: 1.3.1

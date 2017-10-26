@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3F46FA099AA53EBABAF2395548C148253D39CB0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3F46FA099AA53EBABAF2395548C148253D39CB0" : 9223372036854775807,
+    "F3D44B2E0A174995B0681E912F10265E75ED8B1A" : 9223372036854775807,
+    "7C2AA8236D8647028ECC716B6F8EA7155FAC5438" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DCB5B97D-7BBB-40ED-AF18-7C645620B4C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3F46FA099AA53EBABAF2395548C148253D39CB0" : "KataApp\/",
+    "F3D44B2E0A174995B0681E912F10265E75ED8B1A" : "..\/..",
+    "7C2AA8236D8647028ECC716B6F8EA7155FAC5438" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KataApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KataApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/AppAccademyBootcamp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C2AA8236D8647028ECC716B6F8EA7155FAC5438"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/KataApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3F46FA099AA53EBABAF2395548C148253D39CB0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3D44B2E0A174995B0681E912F10265E75ED8B1A"
+    }
+  ]
+}

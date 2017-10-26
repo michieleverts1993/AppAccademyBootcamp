@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "shoppingListApp">
+      <Group
+         location = "container:"
+         name = "shoppingListAppData">
+         <Group
+            location = "container:"
+            name = "app">
+            <Group
+               location = "container:"
+               name = "App">
+               <FileRef
+                  location = "self:shoppingListV2.xcodeproj">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7C2AA8236D8647028ECC716B6F8EA7155FAC5438",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F3D44B2E0A174995B0681E912F10265E75ED8B1A" : 9223372036854775807,
+    "7C2AA8236D8647028ECC716B6F8EA7155FAC5438" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A0C5C9DD-13A4-4110-B3FB-25C7797CA006",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F3D44B2E0A174995B0681E912F10265E75ED8B1A" : "",
+    "7C2AA8236D8647028ECC716B6F8EA7155FAC5438" : "AppAccademyBootcamp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JSON parsing and Dictionaries and Arrays",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JSON parsing and Dictionaries and Arrays.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/AppAccademyBootcamp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C2AA8236D8647028ECC716B6F8EA7155FAC5438"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michieleverts1993\/Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3D44B2E0A174995B0681E912F10265E75ED8B1A"
+    }
+  ]
+}

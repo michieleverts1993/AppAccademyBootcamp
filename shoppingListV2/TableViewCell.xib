@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mega Fresh - Demo.ttf">
+            <string>MegaFresh</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCell" rowHeight="554" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="shoppingListV2">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="554"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="484" height="553.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="F4L-Bq-EO5">
+                        <rect key="frame" x="103" y="8" width="293" height="305"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gkU-LA-aiI">
+                                <rect key="frame" x="0.0" y="0.0" width="293" height="200"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gah-2V-YtH">
+                                <rect key="frame" x="0.0" y="200" width="259" height="35"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePoint" highlightedImage="imagePoint" translatesAutoresizingMaskIntoConstraints="NO" id="Kyf-qn-BO2">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="8C0-UZ-qHu"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="XYA-fN-auf"/>
+                                            <constraint firstAttribute="width" constant="41" id="ZFz-JA-cH4"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="this is where u type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwT-2S-aGt">
+                                        <rect key="frame" x="41" y="0.0" width="218" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="iKd-gH-ktg"/>
+                                            <constraint firstAttribute="width" constant="218" id="wLj-gq-A7x"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MegaFresh" family="Mega Fresh - Demo" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I3S-It-ICl">
+                                <rect key="frame" x="0.0" y="235" width="259" height="35"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePoint" highlightedImage="imagePoint" translatesAutoresizingMaskIntoConstraints="NO" id="gYG-OZ-tis">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="2vg-Rf-2rD"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="TDO-Af-NAG"/>
+                                            <constraint firstAttribute="width" constant="41" id="Xrp-PP-MSh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="this is where u type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fd-oX-lOZ">
+                                        <rect key="frame" x="41" y="0.0" width="218" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="218" id="89Y-Bb-Hwk"/>
+                                            <constraint firstAttribute="height" constant="35" id="mop-Vl-Vgb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MegaFresh" family="Mega Fresh - Demo" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5L6-Cr-2uR">
+                                <rect key="frame" x="0.0" y="270" width="259" height="35"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKs-iz-r1b">
+                                        <rect key="frame" x="0.0" y="0.0" width="259" height="35"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePoint" highlightedImage="imagePoint" translatesAutoresizingMaskIntoConstraints="NO" id="eWL-W4-qPk">
+                                                <rect key="frame" x="0.0" y="0.0" width="41" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="8Uk-OI-apP"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="OSk-Na-fFk"/>
+                                                    <constraint firstAttribute="width" constant="41" id="ywM-SE-NwY"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="TableViewCell" text="this is where u type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6x0-jt-59D">
+                                                <rect key="frame" x="41" y="0.0" width="218" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="Xwn-1N-kRP"/>
+                                                    <constraint firstAttribute="width" constant="218" id="aoi-wE-3Dy"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MegaFresh" family="Mega Fresh - Demo" pointSize="29"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gkU-LA-aiI" secondAttribute="trailing" id="b73-pQ-N8M"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="F4L-Bq-EO5" secondAttribute="bottom" constant="240.5" id="4s1-m9-nUs"/>
+                    <constraint firstItem="F4L-Bq-EO5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Pqx-k9-hhS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="F4L-Bq-EO5" secondAttribute="trailing" constant="80" id="bRq-Z8-kIC"/>
+                    <constraint firstItem="F4L-Bq-EO5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="95" id="nbc-5U-9vE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label3" destination="6x0-jt-59D" id="qBe-RL-Wfb"/>
+                <outlet property="shopListImage" destination="gkU-LA-aiI" id="LUX-TV-R2K"/>
+            </connections>
+            <point key="canvasLocation" x="-69" y="159"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imagePoint" width="800" height="769"/>
+    </resources>
+</document>
